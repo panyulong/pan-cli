@@ -1,8 +1,7 @@
-
-### 安装依赖
+### 全局安装 pan-cli
 
 ```
-npm install 
+npm install pan-cli -g
 ```
 
 ### 项目创建
@@ -13,22 +12,37 @@ npm install
 pan-cli create projectname
 ```
 
+### 登录 npm
+
+```
+npm login
+Username:panyulong
+Password:pyl
+Email:527875893@qq.com
+```
+
 ### 更新版本号
-比如我想来个1.0.1版本，注意，是最后一位修改了增1，那么命令：
+
+比如我想来个 1.0.1 版本，注意，是最后一位修改了增 1，那么命令：
+
 ```
 npm version patch    回车就可以了；
 ```
-比如我想来个1.1.0版本，注意，是第二位修改了增1，那么命令：
+
+比如我想来个 1.1.0 版本，注意，是第二位修改了增 1，那么命令：
+
 ```
 npm version minor    回车就可以了；
 ```
-比如我想来个2.0.0版本，注意，是第一位修改了增1，那么命令：
+
+比如我想来个 2.0.0 版本，注意，是第一位修改了增 1，那么命令：
+
 ```
 npm version major     回车就可以了；
 ```
 
-2、修改远端的版本,提交到远端npm中：
-```
-npm publish 
-```
+### 修改远端的版本,提交到远端 npm 中
 
+```
+npm publish
+```
